@@ -1,0 +1,252 @@
+@media(max-width:1300px) {
+    .spinnerDiv {
+        margin-top: 35%;
+    }
+}
+
+@media(max-width:1200px) {
+    .spinnerDiv {
+        margin-top: 40%;
+    }
+}
+
+@media(max-width:800px){
+
+    .spinnerDiv {
+        margin-top: 55%;
+    }
+    .list-item {
+        width: 200px;
+        height: 200px;
+    }
+    
+    h1 {
+        font-size: 100px;
+    }
+
+    .poke-ball {
+        width: 100px;
+    }
+    
+    .search-imputDiv {
+        width: 500px;
+    }
+    
+    .search-input {
+        width: 90%;
+    }
+    
+    .clear-button {
+        font-size: 20px;
+        color:gray;
+        padding-right: 2%;
+        cursor: pointer;
+    }
+    
+    .pokemonOwnNummerDiv {
+        font-size: 24px;
+    }
+    
+    .pokemonOwnNameDiv{
+        font-size: 36px;
+    }
+    
+    .pokemon-type {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:600px){
+
+    .spinnerDiv {
+        margin-top: 70%;
+    }
+
+    .list-item {
+        width: 180px;
+        height: 180px;
+    }
+    
+    h1 {
+        font-size: 80px;
+    }
+
+    .poke-ball {
+        width: 80px;
+    }
+    
+    .search-imputDiv {
+        width: 400px;
+    }
+    
+    .search-input {
+        width: 90%;
+    }
+    
+    .clear-button {
+        cursor: pointer;
+    }
+
+    .no-pokemon {
+        font-size: 24px;
+    }
+    
+    .pokemonOwnNummerDiv {
+        font-size: 20px;
+    }
+    
+    .pokemonOwnNameDiv{
+        font-size: 30px;
+    }
+    
+    .pokemon-type {
+        font-size: 16px;
+        margin: 5px;
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
+        padding: 7px;
+    }
+
+    .pokemon-imgDiv{
+        width: 60%;
+        height: 90%;
+    }
+    .pokemon-Img{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media(max-width:460px){
+
+    .spinnerDiv {
+        margin-top: 85%;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    .poke-ball {
+        width: 60px;
+    }
+    
+    .search-imputDiv {
+        width: 300px;
+    }
+
+    .no-pokemon {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:410px){
+
+    .spinnerDiv {
+        margin-top: 90%;
+    }
+
+    .list-item {
+        width: 140px;
+        height: 140px;
+    }
+    
+    .clear-button {
+        cursor: pointer;
+    }
+    
+    .pokemonOwnNummerDiv {
+        font-size: 18px;
+    }
+    
+    .pokemonOwnNameDiv{
+        font-size: 24px;
+    }
+
+    .pokemon-typeDiv {
+        margin-left: 5%;
+    }
+    
+    .pokemon-type {
+        font-size: 14px;
+        margin: 5px;
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
+        padding: 7px;
+    }
+
+    .pokemon-imgDiv{
+        width: 60%;
+        height: 90%;
+    }
+    .pokemon-Img{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media(max-width:330px) {
+
+    .spinnerDiv {
+        margin-top: 95%;
+    }
+    
+    h1 {
+        font-size: 50px;
+    }
+
+    .poke-ball {
+        width: 50px;
+    }
+    
+    .search-imputDiv {
+        width: 200px;
+    }
+    
+    .clear-button {
+        font-size: 16px;
+    }
+
+    .list-item {
+        width: 180px;
+        height: 180px;
+    }
+
+    .pokemonOwnNummerDiv {
+        font-size: 20px;
+    }
+    
+    .pokemonOwnNameDiv{
+        font-size: 30px;
+    }
+    
+    .pokemon-type {
+        font-size: 16px;
+        margin: 5px;
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
+        padding: 7px;
+    }
+
+    .pokemon-imgDiv{
+        width: 60%;
+        height: 90%;
+    }
+    .pokemon-Img{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        height: 100%;
+    }
+}
+

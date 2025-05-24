@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/modal.css">
+    <link rel="stylesheet" href="style/Q-style.css">
+    <link rel="stylesheet" href="style/Q-Modal.css">
+    <script src="script/template.js"></script>
+    <link rel="icon" type="image/x-icon" href="img/catFavicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+     rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+    
+    <title>PokePaul</title>
+</head>
+<body>
+    <header>
+      <div class="titleLogo">
+        <h1>PokePaul</h1>
+        <img src="img/pokeBall.png" alt="Pokeball" class="poke-ball">
+      </div>
+      <div class="search-imputDiv">
+        <input type="text; number"class="search-input" placeholder="Search" id="searchInput" oninput="searchPokemon(); toggleClearButton()">
+        <span class="clear-button" id="clearButton" onclick="clearInput()">✖</span>
+      </div>
+    </header>
+  
+    <div class="pokemon-listDiv">
+      <div class="contentDiv" id="contentDivID">
+        <div class="content" id="contentID"></div>
+      </div>
+      <button id="loadMoreBtn" class="load-more" onclick="loadMorePokemons()">Load More</button>
+      <div id="loadingScreen" class="loading-screen">
+        <div class="spinnerDiv">
+        <div class="spinner"></div>
+        <span class="loading-text">Loading Pokemons</span>
+        </div>
+      </div>
+    </div>
+  
+    <div id="myModal" class="modal" onclick="closeModal()">
+      <div class="modal-content" onclick="event.stopPropagation()"></div>
+    </div>
+  
+    </body>
+  </html>
+
+<script src="script/supportFunctions.js"></script>
+<script src="script/script.js"></script>
+<script src="script/modal.js"></script>
+</body>
+</html>

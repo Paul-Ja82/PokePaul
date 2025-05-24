@@ -1,0 +1,700 @@
+@media(max-width:1000px) {
+    .modal-content {
+        height: 85%;
+        width: 80%;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+    
+    .evolution-stage img {
+        width: 70%;
+        height: 100%;
+    }
+
+    .evolution-ChainDiv {
+        height: 60%;
+        margin-top: 3%;
+    }
+    
+    .pokemon-MovesDiv {
+        margin-top: 8%;
+    }
+
+    .nextButton {
+        font-size: large;
+        padding: 20px;
+    }
+    
+    .previousButton {
+        font-size: large;
+        padding: 20px;
+    }
+}
+
+@media(max-width:800px){
+    
+    .poke-ball-big{
+        width: 80%;
+    }
+    
+    .pokemonModalImg {
+        width: 80%;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .pokemon-MovesDiv {
+        margin-top: 8%;
+    }
+
+    .evolution-ChainDiv {
+        height: 60%;
+        margin-top: 4%;
+    }
+
+    .evolution-stage {
+        width: 25%;
+    }
+    
+    .evolution-stage img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .evolution-name {
+        font-size: 20px;
+    }
+    
+    .nextButton {
+        font-size: large;
+        padding: 20px;
+        margin-top: 4%;
+    }
+    
+    .previousButton {
+        font-size: large;
+        padding: 20px;
+        margin-top: 4%;
+    }
+    
+}
+
+@media(max-width:600px){
+
+    .modal-content {
+        height: 85%;
+        width: 80%;
+    }
+
+    .pokemonModalNameNumber {
+        font-size: 36px;
+     }
+    
+    .poke-ball-big{
+        width: 80%;
+    }
+    
+    .pokemonModalImg {
+        width: 80%;
+        height: 100%;
+    }
+    
+    h2 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .evolution-stage {
+        width: 25%;
+    }
+
+    .evolution-ChainDiv {
+        height: 50%;
+        margin-top: 8%;
+    }
+    
+    .evolution-stage img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .evolution-name {
+        font-size: 20px;
+    }
+
+    .pokemon-MovesDiv {
+        height:60%;
+        border-radius: 15px;
+        padding-top: 5%;
+        margin-top: 5%;
+    
+    }
+    
+    .nextButton {
+        font-size: large;
+        padding: 20px;
+        margin-top: 4%;
+    }
+    
+    .previousButton {
+        font-size: large;
+        padding: 20px;
+        margin-top: 4%;
+    }
+    
+}
+
+@media(max-width:500px){
+    .modal-content {
+        height: 75%;
+        width: 85%;
+        padding-bottom: 0;
+        padding-top: 0;
+        justify-content:flex-start;
+    }
+
+    .modal-header {
+        height: 35%;
+        margin-top: 12%;
+    }
+
+    .close {
+        font-size: 24px;
+    }
+    
+    .pokemonModalNameNumber {
+        font-size: 32px;
+        height: 20%;
+        margin-right: 8%;
+        margin-left: 8%;
+     }
+
+    .pokemonModalDetails {
+        height: 45%;
+        margin-bottom: 0;
+    }
+    
+    h2 {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .evolution-ChainDiv {
+        height: 60%;
+        margin-top: 8%;
+    }
+
+
+    .evolution-stage {
+        width: 25%;
+        height: 100%;
+    }
+    
+    .evolution-stage img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .evolution-name {
+        font-size: 16px;
+    }
+
+    .arrowsDiv {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 5px;
+        margin-top: 0%;
+        margin-bottom: 0px;
+        margin-right: 0%;
+        margin-left: 0%;
+     }
+    
+    
+    
+    .nextButton {
+        font-size: medium;
+        padding: 10px;
+        margin-right: 2%;     
+    }
+    
+    .previousButton {
+        font-size: medium;
+        padding: 10px;
+        margin-left: 2%;
+    }
+    
+}
+
+@media(max-width:420px){
+
+    .modal-content {
+        height: 70%;
+        width: 90%;
+        justify-content:flex-start;
+    }
+
+    .modal-header {
+        height: 35%;
+        margin-top: 10%;
+    }
+    
+    
+    h2 {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .evolution-ChainDiv {
+        height: 80%;
+        margin-top: 2%;
+    }
+
+    .evolution-chain {
+        height: 80%;
+    }
+
+    .evolution-stage {
+        width: 25%;
+    }
+    
+    .evolution-stage img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .evolution-name {
+        font-size: 14px;
+    }
+
+    .evolution-arrow {
+        font-size: 14px;
+    }
+
+    .arrowsDiv {
+        width: 98%;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 5px;
+        margin-top: 0%;
+        margin-bottom: 0px;
+        margin-right: 0%;
+        margin-left: 0%;
+     }
+    
+    .nextButton {
+        font-size: small;
+        padding: 8px;
+    }
+    
+    .previousButton {
+        font-size: small;
+        padding: 8px;
+    }
+}
+
+@media(max-width:375px) {
+
+    .pokemonModalNameNumber {
+        font-size: 24px;
+     }
+
+    h2 {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .evolution-ChainDiv {
+        height: 70%;
+        margin-top: 15%;
+    }
+
+    .evolutio.-chain {
+        height: 15vh;
+    }
+
+    .evolution-stage {
+        width: 25%;
+    }
+    
+    .evolution-stage img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .evolution-name {
+        font-size: 14px;
+    }
+
+    .pokemon-MovesDiv {
+        height:80%;
+        border-radius: 15px;
+        padding-top: 3%;
+        margin-top: 5%;
+    
+    }
+
+    .evolution-arrow {
+        font-size: 4px;
+    }
+    
+    
+    .nextButton {
+        font-size: small;
+        padding: 8px;
+    }
+    
+    .previousButton {
+        font-size: small;
+        padding: 8px;
+    }
+}
+
+@media(max-width:330px) {
+    
+    .modal-content {
+        height: 65%;
+        width: 85%;
+    }
+
+    .pokemon-MovesDiv {
+        height:80%;
+        border-radius: 15px;
+        padding-top: 3%;
+        margin-top: 5%;
+    
+    }
+}
+
+@media(max-height:850px) {
+
+    .spinnerDiv {
+        margin-top: 25%;
+    }
+
+    .modal-content {
+        height: 98%;
+        width: 90%;
+        top: 5px;
+    }
+
+    .modal-header {
+        height: 33%;
+        margin-top: 4%;
+    }
+    
+    h2 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .base-stats-underDiv{
+        margin-top: 2%;
+        }
+
+    .evolution-chain {
+        height: 80%;
+    }
+
+    .evolution-stage {
+        width: 25%;
+    }
+    
+    .evolution-stage img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .evolution-name {
+        font-size: 14px;
+    }
+
+    .evolution-arrow {
+        font-size: 14px;
+    }
+
+    .arrowsDiv {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 5px;
+        margin-top: 0%;
+        margin-bottom: 0px;
+        margin-right: 0%;
+        margin-left: 0%;
+        }
+    
+    .nextButton {
+        font-size: small;
+        padding: 8px;
+    }
+    
+    .previousButton {
+        font-size: small;
+        padding: 8px;
+        
+    }
+}
+
+@media(max-height:670px){
+
+    .spinnerDiv {
+        margin-top: 250px;
+    }
+
+    .modal-content {
+        height: 96%;
+        width: 90%;
+        top: 10px;
+        justify-content:flex-start;
+    }
+
+    .close {
+        font-size: 24px;
+        padding: 1px;
+    }
+
+   .modal-header {
+    height: 35%;
+    margin-top: 12%;
+    }
+
+.ModalImgDiv {
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 70%;
+    margin-right: 10%;
+    margin-left: 8%;
+    }
+
+.about-Under-Div {
+    margin-top: 8%;
+    }
+
+.base-stats-underDiv{
+    margin-top: 2%;
+    }
+
+.evolution-ChainDiv {
+    margin-top: 15%;
+    height: 90%;
+    margin-bottom: 0;
+    }
+
+.evolution-chain {
+    margin-top: 1%;
+    height: 60%;
+    }
+
+.pokemon-MovesDiv {
+    margin-top: 12%;
+    height: 70%;
+    }
+
+.arrowsDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 5px;
+    margin-top: 0%;
+    margin-bottom: 0px;
+    margin-right: 0%;
+    margin-left: 0%;
+    }
+
+}
+
+@media(max-height:650px){
+
+    .spinnerDiv {
+        margin-top: 250px;
+    }
+
+    .modal-content {
+        height: 98%;
+        width: 90%;
+        top: 10px;
+        justify-content:flex-start;
+    }
+
+   .modal-header {
+    height: 30%;
+    margin-top: 4%;
+    }
+
+.ModalImgDiv {
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 70%;
+    margin-right: 10%;
+    margin-left: 8%;
+    }
+
+.about-Under-Div {
+    margin-top: 6%;
+    }
+
+.base-stats-underDiv{
+    margin-top: 2%;
+    }
+
+.evolution-ChainDiv {
+    margin-top: 15%;
+    height: 95%;
+    margin-bottom: 0;
+    }
+
+.evolution-chain {
+    margin-top: 1%;
+    height: 60%;
+    }
+
+.pokemon-MovesDiv {
+    margin-top: 10%;
+    height: 100%;
+    }
+
+.arrowsDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 5px;
+    margin-top: 0%;
+    margin-bottom: 0px;
+    margin-right: 0%;
+    margin-left: 0%;
+    }
+
+}
+
+
+@media(max-height:400px) {
+    
+    .modal-content {
+        height: 96%;
+        width: 90%;
+        top: 5px;
+        padding-bottom: 0% 5px;
+        padding-top:0% 1px;
+        justify-content:flex-start;
+    }
+
+    .modal-header {
+        height: 20%;
+        margin-top: 1%;
+        margin-bottom: 0;
+    }
+
+    .close {
+        font-size: 20px;
+    }
+    
+    .pokemonModalNameNumber {
+        font-size: 20px;
+        height: 8%;
+    }
+
+    .pokemonModalImgdiv {
+        width: 65%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .poke-ball-bigdiv {
+        width: 35%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .poke-ball-big{
+        width: 60%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .pokemonModalImg {
+        width: 60%;
+        height: 100%;
+    }
+
+    .pokemonModalDetails {
+        height: 45%;
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 16px;
+        margin-bottom: 2px;
+        margin-top: 6px;
+    }
+
+    .details-grid, .stats-grid, .moves-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 3px;
+        
+    }
+    
+    .details-grid div, .stats-grid div, .moves-grid div {
+        padding: 3px 5px; 
+        border-bottom:solid rgb(132, 132, 132,0.1) ;
+    }
+
+    .about-Under-Div {
+        margin-top:4%;
+    }
+
+    .details-grid, .stats-grid, .moves-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 3px;
+        
+    }
+    
+    .details-grid div, .stats-grid div, .moves-grid div {
+        padding: 3px 5px; 
+        border-bottom:solid rgb(132, 132, 132,0.1) ;
+    }
+
+    .base-stats-underDiv {
+        margin-top: 0%;
+    }
+
+    .evolution-ChainDiv {
+        margin-top: 6%;
+        height: 80%;
+        margin-bottom: 0;
+    }
+
+    .evolution-chain {
+        margin-top: 4%;
+        height: 50%;
+    }
+
+    .arrowsDiv {
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+       position: absolute;
+       bottom: 5px;
+       margin-top: 0%;
+       margin-bottom: 0px;
+       margin-right: 0%;
+       margin-left: 0%;
+    }
+}

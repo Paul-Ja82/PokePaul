@@ -1,0 +1,309 @@
+body {
+    font-family: relaway;
+    margin: 0;
+    background-color: blue;
+}
+
+.hidden-important {
+    display: none !important;
+}
+
+::-webkit-scrollbar {
+    background-color: blue;
+    border-radius: 10px;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(164, 164, 164); 
+    border-radius: 10px; 
+    border: none;
+}
+
+.loading-screen {
+    background-color: rgba(0, 0, 255, 0.5);
+    height: 100%;
+    font-size: 250%;
+    color: whitesmoke;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.spinnerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25%;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.spinner {
+    margin: auto;
+    margin-bottom: 20px;
+    border: 8px solid rgb(240, 240, 13);
+    border-top: 8px solid black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 1s linear infinite;
+}
+
+.loading-text {
+    margin-top: 1%;
+    color: yellow;
+    text-shadow: 
+    -1px -1px 4px black,  
+     1px -1px 4px black,
+    -1px 1px 4px black,
+     1px 1px 4px black;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.titleLogo {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+h1 {
+    font-size: 120px;
+    color: blue;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-shadow: 
+    -1px -1px 8px rgb(200, 199, 199),  
+     1px -1px 8px rgb(218, 217, 217),
+    -1px 1px 8px rgb(140, 140, 140),
+     1px 1px 89px rgb(140, 140, 140);
+}
+
+.poke-ball {
+    width: 100px;
+}
+
+.search-imputDiv {
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 1px 8px rgb(56, 56, 56);
+    background-color: rgb(164, 164, 164);
+    border-radius: 5px;
+    margin-bottom: 24px;
+    height: 34px;
+    width: 600px;
+}
+
+.search-input {
+    background-color: rgb(164, 164, 164);
+    border: none;
+    width: 85%;
+    height: 22px;
+    color: whitesmoke;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-top: 4px;
+    padding-right: 30px; 
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-shadow: 
+    -1px -1px 4px rgb(140, 140, 140, 0.4),  
+     1px -1px 4px rgb(140, 140, 140, 0.4),
+    -1px 1px 4px rgb(140, 140, 140, 0.4),
+     1px 1px 4px rgb(140, 140, 140, 0.4);
+}
+
+::placeholder {
+    color: rgb(194, 194, 194); 
+}
+
+.clear-button {
+    font-size: 20px;
+    color: gray;
+    padding-right: 1%;
+    margin-left: 1%;
+    cursor: pointer;
+    display: none;
+}
+
+.no-pokemon {
+    width: 60%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-top: 15px;
+    border-bottom: solid 5px red;
+    text-transform: none;
+}
+
+.no-pokemonImg {
+    margin-left: 4%;
+    width: 10%;
+}
+
+strong {
+    color: red;
+    text-shadow: 
+    -1px -1px 2px rgba(215, 215, 215),  
+     1px -1px 2px rgba(215, 215, 215),
+    -1px 1px 2px rgba(215, 215, 215),
+     1px 1px 2px rgba(215, 215, 215);
+}
+
+.pokemon-listDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    font-family: economica;
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+.list-item {
+    width: 300px;
+    height: 300px;
+    box-shadow: 1px 1px 15px rgb(9, 9, 9);
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.list-item:hover {
+    filter: brightness(1.1);
+}
+
+.list-item:hover .pokemon-imgDiv {
+    transform: scale(1.1);
+}
+
+.pokemonOwnNummerDiv {
+    color: whitesmoke;
+    margin-right: 4%;
+    margin-top: 1%;
+    font-size: 24px;
+    font-weight: bold;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    text-shadow: 
+    -1px -1px 4px rgb(140, 140, 140, 0.4),  
+     1px -1px 4px rgb(140, 140, 140, 0.4),
+    -1px 1px 4px rgb(140, 140, 140, 0.4),
+     1px 1px 4px rgb(140, 140, 140, 0.4);
+}
+
+.pokemonOwnNameDiv {
+    color: whitesmoke;
+    margin-left: 4%;
+    height: 15%;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-shadow: 
+    -1px -1px 4px rgb(140, 140, 140, 0.4),  
+     1px -1px 4px rgb(140, 140, 140, 0.4),
+    -1px 1px 4px rgb(140, 140, 140, 0.4),
+     1px 1px 4px rgb(140, 140, 140, 0.4);
+}
+
+.pokemonOwnImgDiv {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pokemon-typeDiv {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-left: 2%;
+}
+
+.pokemon-type {
+    border: none;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 2px;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px; 
+    box-shadow: 1px 1px 6px gray;
+    text-shadow: 
+    -1px -1px 4px rgb(140, 140, 140, 0.4),  
+     1px -1px 4px rgb(140, 140, 140, 0.4),
+    -1px 1px 4px rgb(140, 140, 140, 0.4),
+     1px 1px 4px rgb(140, 140, 140, 0.4);
+}
+
+.pokemon-imgDiv {
+    width: 70%;
+    height: 90%;
+}
+
+.pokemon-Img {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+}
+
+.load-more {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blue;
+    color: whitesmoke;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 1px 15px rgb(9, 9, 9);
+    text-shadow: 
+    -1px -1px 4px rgb(140, 140, 140, 0.4),  
+     1px -1px 4px rgb(140, 140, 140, 0.4),
+    -1px 1px 4px rgb(140, 140, 140, 0.4),
+     1px 1px 4px rgb(140, 140, 140, 0.4);
+}
+
+.load-more:hover {
+    transform: scale(1.2);
+}
